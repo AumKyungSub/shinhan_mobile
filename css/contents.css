@@ -1,0 +1,487 @@
+@charset "utf-8";
+header {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 1px;
+}
+header p {
+  font-size: 1.2rem;
+  color: #989898;
+}
+.header_top {
+  padding: 20px 16px 3px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_top h1 {
+  font-size: 1.8rem;
+  padding-left: 16px;
+  /* 텍스트 ... 표시 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header_top img {
+  width: 14px;
+  /* (25/328)*100 = 7.621951219512195 */
+  margin-left: 7.621951219512195%;
+}
+
+/* Main */
+/* Section 1 */
+.content_sec_1 {
+  font-size: 0;
+  padding-top: 30px;
+  margin-bottom: 16px;
+}
+.c_sec_1_cover {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.c_sec_1_cover img {
+  width: 54px;
+  height: 17px;
+  /* (10/328)*100 = 3.048780487804878 */
+  margin-right: 3.048780487804878%;
+}
+
+/* Section 2 */
+.content_sec_2 h2 {
+  font-size: 1.6rem;
+  color: #989898;
+  margin-bottom: 32px;
+}
+.content_sec_2 h2 span {
+  color: #999;
+}
+
+.cs2_heart_share {
+  margin-bottom: 21px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cs2_heart_share img:first-child {
+  width: 34px;
+}
+.cs2_heart_share img:last-child {
+  width: 15px;
+  /* (17/328)*100 = 5.182926829268292 */
+  margin-left: 5.182926829268292%;
+}
+
+.cs2_3_list>div {
+  padding: 16px 17px 17px 18px;
+  border-radius: 8px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cs2_3_list>div:nth-child(1){background-color: #5F55C5;}
+.cs2_3_list>div:nth-child(2){
+  background-color: #F9AA43; 
+  margin: 8px 0;
+}
+.cs2_3_list>div:nth-child(3){background-color: #FD7357;}
+.cs2_3_list>div p {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.cs2_3_list>div h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.cs2_3_list>div h3 span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 18px;
+}
+
+.cs2_date_funds {
+  margin-top: 16px;
+  margin-bottom: 35px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cs2_date_funds p {
+  font-size: 1.6rem;
+  color: #989898;
+}
+.cs2_date_funds a {
+  font-size: 1.6rem;
+  color: #217caf;
+  /* 플렉스 */
+  display: flex;
+  align-items: center;
+}
+.cs2_date_funds img {
+  width: 5px;
+  margin-left: 8px;
+}
+
+.main_banner {
+  margin-bottom: 36px;
+}
+.main_banner img{
+  width: 100%;
+}
+
+/* Article 3 tabs */
+.c3t_button_cover {
+  font-size: 0;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 16px;
+}
+.c3t_button_cover button {
+  width: calc(100%/3);
+  font-size: 1.6rem;
+  color: #818181;
+  cursor: pointer;
+  padding-bottom: 13px;
+}
+.c3t_btn_selected {
+  font-weight: 600;
+  color: #000 !important;
+  border-bottom: 2px solid #000;
+}
+
+/* 기본 정보 (Basic Information) */
+.basic_information {
+  padding-bottom: 40px;
+}
+.basic_information table,
+.basic_information tr,
+.basic_information td {
+  border-bottom: 1px solid #F3F3F3;
+  border-collapse: collapse;
+}
+.basic_information table {
+  border-top: 1px solid #999999;
+}
+.basic_information table {
+  width: 100%;
+}
+.basic_information table tr td{
+  padding: 11px 7px 10px 8px;
+}
+.basic_information table tr td:first-child{
+  font-size: 1.6rem;
+  color: #727272;
+  background-color: #F8F8F8;
+}
+.basic_information table tr td:last-child{
+  font-size: 1.6rem;
+  text-align: right;
+}
+.fa-star-o {
+  color: #c9c9c9;
+}
+.fa-star {
+  color: #FCBA0C;
+}
+.basic_information h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.basic_information table tr td a{
+  color: #217CAF;
+  /* 플렉스 */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.basic_information table tr td a img{
+  width: 5px;
+  margin-left: 4px;
+}
+.basic_information h3 a {
+  font-size: 1.6rem;
+  color: #217caf;
+  margin-top: 14px;
+  margin-bottom: 50px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basic_information h3 a img {
+  width: 5px;
+  margin-left: 8px;
+}
+.basic_information>p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.bi_manual {
+  margin-top: 24px;
+  padding: 12px 9px 12px 17px;
+  background-color: #F8F8F8;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bi_manual p {
+  width: 90%;
+  font-size: 1.6rem;
+  line-height: 18px;
+}
+.bi_manual p img {
+  width: 18px;
+  /* (7/302)*100 = 2.3178807947019866 */
+  margin-right: 2.3178807947019866%;
+}
+.bi_manual>img {
+  width: 5px;
+}
+.bi_underline_list {
+  padding-left: 12px;
+}
+.bi_underline_list p:first-child a:first-child {
+  margin-left: 12px;
+}
+.bi_underline_list p {
+  margin-bottom: 12px;
+}
+.bi_underline_list a {
+  font-size: 1.6rem;
+  color: #818181;
+  margin-right: 15px;
+  text-decoration: underline;
+}
+.bi_must_confirm {
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  padding: 10px 9px 9px 18px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bi_must_confirm h4 {
+  font-size: 1.6rem;
+  color: #818181;
+}
+.bi_must_confirm img {
+  width: 5px;
+}
+.bi_last_btns {
+  /* 플렉스 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bi_last_btns button {
+  /* (155/328)*100 = 47.256097560975604 */
+  width: 47.256097560975604%;
+  height: 46px;
+  border-radius: 6px;
+  font-size: 1.8rem;
+}
+.bi_last_btns button:first-child {
+  background-color: #fff;
+  border: 1px solid #488be2;
+  color: #488be2;
+}
+.bi_last_btns button:last-child {
+  background-color: #488be2;
+  border: none;
+  color: #fff;
+}
+
+/* 수익률 (Return Rate) */
+.return_rate h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+.return_rate table {
+  width: 100%;
+}
+.rr_tb1 {
+  margin-bottom: 20px;
+}
+.rr_tb1 td {
+  padding-bottom: 12px;
+}
+.rr_tb1 td:first-child {
+  font-size: 1.6rem;
+  color: #666;
+}
+.rr_tb1 td:last-child {
+  font-size: 1.6rem;
+  text-align: right;
+}
+.period_cover {
+  margin-bottom: 20px;
+  /* 플렉스 */
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.period_cover button {
+  width: calc(100%/3);
+  height: 39px;
+  background-color: #F8F8F8;
+}
+.period_cover button:nth-child(1) {
+  border-radius: 5px 0 0 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 2px solid #D9D9D9;
+  border-right: 2px solid #D9D9D9;
+  border-left: 1px solid #e7e7e7;
+}
+.period_cover button:nth-child(2) {
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  border-right: 1px solid #666;
+  border-left: 1px solid #666;
+}
+.period_cover button:nth-child(3) {
+  border-radius: 0 5px 0 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 2px solid #D9D9D9;
+  border-right: 1px solid #e7e7e7;
+  border-left: 2px solid #D9D9D9;
+}
+.period_cover button:nth-child(4) {
+  border-radius: 0 0 0 5px;
+  border-bottom: 1px solid #e7e7e7;
+  border-right: 2px solid #D9D9D9;
+  border-left: 1px solid #e7e7e7;
+}
+.period_cover button:nth-child(5) {
+  border-bottom: 1px solid #e7e7e7;
+}
+.period_cover button:nth-child(6) {
+  border-radius: 0 0 5px 0;
+  border-bottom: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-left: 2px solid #D9D9D9;
+}
+.rr_chart {
+  margin-bottom: 32px;
+}
+.return_rate h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 8px;
+}
+.rr_tb2, .rr_tb2 tr, .rr_tb2th, .rr_tb2 td {
+  border: 1px solid #ececec;
+  border-collapse: collapse;
+}
+.rr_tb2 th {
+  font-size: 1.6em;
+  height: 37px;
+  color: #666;
+  line-height: 37px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.rr_tb2 td:nth-child(1){
+  height: 37px;
+  font-size: 1.4rem;
+  color: #111;
+  line-height: 37px;
+  text-align: center;
+}
+.rr_tb2 td:nth-child(2){
+  height: 37px;
+  font-size: 1.4rem;
+  color: #111;
+  line-height: 37px;
+  text-align: center;
+}
+.rr_tb2 td:nth-child(3){
+  height: 37px;
+  padding-right: 16px;
+  padding-left: 10px;
+  font-size: 1.4rem;
+  /* 플렉스 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rr_tb2 td:nth-child(3) p{
+  display: inline;
+}
+.up_down_num{
+  display: inline;
+}
+.rr_tb2 td:nth-child(3) img{
+  width: 8px;
+  vertical-align: middle;
+}
+.up_down_num::after {
+  content: "%";
+}
+.return_rate a {
+  font-size: 1.6rem;
+  color: #5b8abe;
+  margin-top: 20px;
+  margin-bottom: 32px;
+  /* 플렉스 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.return_rate a img {
+  width: 5px;
+}
+
+/* 펀드구성 (Organize Fund) */
+.pie_chart {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+.organize_fund h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.of_tb, .of_tb tr, .of_tb td {
+  border-bottom: 1px solid #f3f3f3;
+  border-collapse: collapse;
+}
+.of_tb td {
+  padding: 10px 0;
+}
+.of_tb td:first-child {
+  font-size: 1.6rem;
+  color: #666;
+}
+.of_tb td:last-child {
+  font-size: 1.6rem;
+  border-left: 1px solid #f3f3f3;
+  text-align: right;
+}
+.of_tb {
+  width: 100%;
+  border-top: 2px solid #d2d2d2;
+  margin-bottom: 12px;
+}
+.of_tb2 td {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #ADADAD;
+}
+.of_tb2 {
+  margin-bottom: 40px;
+}

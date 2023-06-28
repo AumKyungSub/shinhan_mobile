@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body {
+    padding: 20px 16px;
+    background-color: #E9F1FE;
+}
+
+/* x 버튼 */
+.x_cover {
+    text-align: right;
+    margin-bottom: 56px;
+}
+.x_cover img {
+    width: 16px;
+    height: 16px;
+}
+
+/* h2 */
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.h2_sec {
+    margin-bottom: 36px;
+    /* 포지션 위치기준 값 */
+    position: relative;
+}
+/* blue box */
+.h2_sec div {
+    width: 50px;
+    height: 10px;
+    background-color: #A4C6F4;
+    /* 포지션 */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* 로그인 방법 */
+.login_method {
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-bottom: 24px;
+}
+.login_method_cover {
+    font-size: 1.8rem;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.login_method_cover img {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+}
+.login_method_cover ul li {
+    border-bottom: 1px solid #EDEDED;
+    padding: 20px 0 20px 22px;
+}
+
+/* lm 버튼 */
+.lm_button button {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 14px 113px;
+}
+.lm_button button:first-child {
+    color: #fff;
+    background-color: #488BE2;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+.lm_button button:last-child {
+    color: #5D87B9;
+    background-color: #fff;
+    border: 1px solid #5D87B9;
+    border-radius: 50px;
+}

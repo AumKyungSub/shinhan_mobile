@@ -1,0 +1,143 @@
+.gnbWrap {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0F1F5;
+    display: none;
+}
+.gnb_header {
+    height: 10vh;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    background-color: #3F81D7;
+}
+.gnb_header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+.gnb_header_img_cover {
+    margin-bottom: 20px;
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-between;
+}
+.gnb_header_img_cover img {
+    width: 24px;
+}
+
+/* Main */
+main {
+    
+    height: 90vh;
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left */
+.gnb_left {
+    /* (130/360)*100 = 36.11111111111111 */
+    width: 36.11111111111111%;
+    background-color: #F0F1F5;
+    color: #666;
+    /* 플렉스 */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.gnb_left_img_cover,
+.gnb_left_bottom_menu,
+.gnb_left_turn_off{
+    padding-left: 16px;
+}
+.gnb_left_bottom_menu img,
+.gnb_left_turn_off img{
+    width: 14px;
+    margin-right: 10px;
+}
+.gnb_left_select {
+    background-color: #fff;
+    color: #6592CB;
+}
+.gnb_left_top_menu {
+    margin-bottom: 56px;
+}
+.gnb_left_top_menu li {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 17px 0 17px 16px;
+    cursor: pointer;
+}
+.gnb_left_img_cover img {
+    width: 90px;
+    margin-bottom: 24px;
+}
+.gnb_left_bottom_menu ul {
+    border-bottom: 1px solid #E4E5E7;
+    padding-bottom: 6px;
+}
+.gnb_left_bottom_menu ul li {
+    font-size: 1.4rem;
+    color: #4B4C4E;
+    padding: 10px 0;
+}
+.gnb_left_turn_off {
+    font-size: 1.4rem;
+    padding: 16px 0 20px 16px;
+}
+
+/* Right */
+.gnb_right {
+    /* (230/360)*100 = 63.88888888888888 */
+    width: 63.88888888888888%;
+    overflow-y: auto;
+}
+.gnb_right>div dl {
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+.gnb_right>div dl dt {
+    font-size: 1.6rem;
+    font-weight: 700;
+     padding: 16px 0 20px 16px;
+}
+.gnb_right>div dl dd {
+    font-size: 1.6rem;
+     padding: 10px 0 9px 16px;
+     border-bottom: 1px solid #F3F3F5;
+}
+.gnb_right>div dl dd:last-child {
+    border: none;
+}
+.funds,
+.pension,
+.customer_service {
+    display: none;
+}
+
+/* .test {
+    width: 70px;
+    height: 22px;
+    border: 1px solid #FF7134;
+    color: #FF7134;
+    border-radius: 4px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px 0 6px;
+}
+.span_cover {
+    width: 18px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.span_cover div {
+    width: 2px !important;
+    height: 10px;
+    background-color: #FF7134;
+}
+.span_cover div:last-child {
+    background-color: #d9d9d9 !important;
+} */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="JGM" />
+    <meta name="description" content="중꺾마 신한투자증권 리뉴얼" />
+    <title>신한투자증권</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="./images/favicon/fav32.png" />
+    <link
+      rel="apple-touch-icon=precomposed"
+      href="./images/favicon/fav180.png"
+    />
+    <!-- 기본 코딩 JS 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+
+    <!-- 기본 코딩 CSS 파일 -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <div class="login_x_cover">
+      <p>아이디 로그인</p>
+      <a href="./index.html"><img src="./images/login/x.png" alt="엑스" /></a>
+    </div>
+    <section class="login_form">
+      <h2 class="h2_sec">
+        아이디 로그인
+        <div></div>
+      </h2>
+      <h3>공동인증서 비밀번호를 입력해주세요.</h3>
+      <form action="#" method="post">
+        <fieldset>
+          <legend></legend>
+          <input type="text" name="user_id" id="user_id" placeholder="아이디" />
+          <input
+            type="password"
+            name="user_pw"
+            id="user_pw"
+            placeholder="비밀번호"
+          />
+          <input
+            type="password"
+            name="certificate_pw"
+            id="certificate_pw"
+            placeholder="공동인증서 비밀번호"
+          />
+          <div class="remember_id">
+            <p>아이디저장</p>
+            <div></div>
+            <span>ON</span>
+          </div>
+          <input type="submit" value="로그인" />
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="login_sec_2">
+      <a href="./login_method.html">다른 인증방법 선택</a>
+      <img src="./images/login/arrow_right.png" alt="화살표" />
+      <p>|</p>
+      <a href="#">아이디/비빌번호 찾기</a>
+    </section>
+
+    <section class="login_banner">
+      <img src="./images/login/login_banner.png" alt="광고" />
+    </section>
+
+    <!-- 페이지 JS -->
+    <script src="./js/alret.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

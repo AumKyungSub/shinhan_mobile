@@ -1,0 +1,5 @@
+contents단 폰트어썸 star
+[ 별 꽉찬거]
+<i class="fa fa-star" aria-hidden="true"></i>
+[ 별 테두리만 있는거 ]
+<i class="fa fa-star-o" aria-hidden="true"></i>

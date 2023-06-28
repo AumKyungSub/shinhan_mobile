@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="JGM" />
+    <meta name="description" content="중꺾마 신한투자증권 리뉴얼" />
+    <title>신한투자증권</title>
+    <!-- 폰트어썸 -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- 팝이콘 -->
+    <link rel="shortcut icon" href="./images/favicon/fav32.png" />
+    <link
+      rel="apple-touch-icon=precomposed"
+      href="./images/favicon/fav180.png"
+    />
+    <!-- 기본 코딩 JS 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 기본 코딩 CSS 파일 -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/gnb.css" />
+    <!-- Swiper JS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- Header -->
+      <header class="safe_area">
+        <div class="header_nav_cover">
+          <nav class="gnb">
+            <ul>
+              <li><a href="#">자산</a></li>
+              <li><a href="#">주식</a></li>
+              <li><a href="#">채권</a></li>
+              <li><a href="#">상품</a></li>
+            </ul>
+          </nav>
+          <nav class="snb">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./images/main/search.png" alt="검색" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/main/alarm.png" alt="알람" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header_national_cover">
+          <div class="hn_btn_cover">
+            <button class="hn_btn_selected">국내</button>
+            <button>해외</button>
+          </div>
+          <p>국내 시장 진행중</p>
+        </div>
+      </header>
+      <!-- /Header -->
+      <!-- Article1 -->
+      <article class="stock_slide none_user_select">
+        <ul>
+          <li>
+            <h2>KOSPI</h2>
+            <h3>2,476.86 <span class="change_color">+0.97</span></h3>
+          </li>
+          <li>
+            <h2>KOSDAQ</h2>
+            <h3>847.52 <span class="change_color">-0.35</span></h3>
+          </li>
+          <li>
+            <h2>NASDAQ</h2>
+            <h3>12,087.96 <span class="change_color">-1.35</span></h3>
+          </li>
+          <li>
+            <h2>DOW</h2>
+            <h3>33,274.15 <span class="change_color">-1.26</span></h3>
+          </li>
+          <li>
+            <h2>KT&G</h2>
+            <h3>83,400.00 <span class="change_color">+1.97</span></h3>
+          </li>
+        </ul>
+      </article>
+      <!-- /Article1 -->
+      <!-- Article2 -->
+      <article class="article_two safe_area">
+        <div class="shin_plus">
+          <img src="./images/main/plus_icon.png" alt="플러스" />
+          <p>
+            신한플러스
+            <img src="./images/main/coupon.png" alt="쿠폰">
+          </p>
+        </div>
+        <div class="my_data">
+          <img src="./images/main/mydata.png" alt="마이테이터" />
+          <p>마이데이터</p>
+        </div>
+      </article>
+      <!-- /Article2 -->
+
+      <!-- 구분선 -->
+      <hr />
+      <!-- /구분선 -->
+
+      <!-- Section 1 -->
+      <section class="sec_1 safe_area">
+        <h2>나의 주식</h2>
+        <div class="sec_1_button_cover">
+          <a href="./login_method.html"><button>보유</button></a>
+          <a href="./login_method.html"><button>관심</button></a>
+          <button class="selected_button">최근</button>
+        </div>
+        <table>
+          <!-- (160/328)*100 = 48.78048780487805 -->
+          <!-- (76/328)*100 = 23.170731707317074 -->
+          <!-- (11/328)*100 = 3.353658536585366 = 1.524390243902439 -->
+          <!-- (65/328)*100  = 19.817073170731707= 21.646341463414632  -->
+          <colgroup>
+            <col style="width: 48.78048780487805%" />
+            <col style="width: 23.170731707317074%" />
+            <col style="width: 3.353658536585366%" />
+            <col style="width: 19.817073170731707%" />
+          </colgroup>
+          <tr>
+            <td>삼성전자</td>
+            <td class="change_color_prev">62,300</td>
+            <td></td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+0.32
+            </td>
+          </tr>
+          <tr>
+            <td>대한항공</td>
+            <td class="change_color_prev">22,750</td>
+            <td></td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >-0.89
+            </td>
+          </tr>
+          <tr>
+            <td>LG에너지솔루션</td>
+            <td class="change_color_prev">580,000</td>
+            <td></td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+1.56
+            </td>
+          </tr>
+          <tr>
+            <td>신한지주</td>
+            <td class="change_color_prev">34,900</td>
+            <td></td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >-1.02
+            </td>
+          </tr>
+        </table>
+        <p>최근 본 종목으로 이동</p>
+      </section>
+
+      <!-- 구분선 -->
+      <hr />
+      <!-- /구분선 -->
+
+      <!-- Article Event -->
+      <article class="article_event safe_area">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./images/main/event1.png" alt="이벤트1">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/main/event2.png" alt="이벤트2">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/main/event3.png" alt="이벤트3">
+            </div>
+            ...
+          </div>
+          </article>
+      <!-- /Article Event -->
+
+      <!-- Section2 -->
+      <section class="sec_2 safe_area">
+        <h2>실시간 인기 종목</h2>
+        <div class="sec_2_button_cover">
+          <button class="selected_button">국내TOP종목</button>
+          <button>인기검색종목</button>
+          <button>대한민국랭킹</button>
+        </div>
+        <table class="sec_2_table_0">
+          <!-- (36/304)*100  = 11.842105263157894-->
+          <!-- (132/304)*100 = 43.42105263157895 -->
+          <!-- (65/304)*100 = 21.38157894736842 -->
+          <!-- (71/304)*100 = 23.355263157894736 -->
+          <colgroup>
+            <col style="width: 11.842105263157894%" />
+            <col style="width: 43.42105263157895%" />
+            <col style="width: 21.38157894736842%" />
+            <col style="width: 23.355263157894736%" />
+          </colgroup>
+          <tr>
+            <td>1</td>
+            <td>SK하이닉스</td>
+            <td class="change_color_prev">88,400</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+3.39
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>한국금융지주</td>
+            <td class="change_color_prev">54,600</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+1.30
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>삼성전자</td>
+            <td class="change_color_prev">62,900</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >-1.29
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>LG에너지솔루션</td>
+            <td class="change_color_prev">577,700</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+0.52
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>삼성바이오로직스</td>
+            <td class="change_color_prev">797,000</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor0.png"
+                  alt="업올다운" /></span
+              >0.00
+            </td>
+          </tr>
+        </table>
+        <table class="sec_2_table_1">
+          <!-- (36/304)*100  = 11.842105263157894-->
+          <!-- (132/304)*100 = 43.42105263157895 -->
+          <!-- (65/304)*100 = 21.38157894736842 -->
+          <!-- (71/304)*100 = 23.355263157894736 -->
+          <colgroup>
+            <col style="width: 11.842105263157894%" />
+            <col style="width: 43.42105263157895%" />
+            <col style="width: 21.38157894736842%" />
+            <col style="width: 23.355263157894736%" />
+          </colgroup>
+          <tr>
+            <td>1</td>
+            <td>삼성전자</td>
+            <td class="change_color_prev">63,100</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+1.24
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>POSCO</td>
+            <td class="change_color_prev">392,000</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+1.30
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>카카오</td>
+            <td class="change_color_prev">60,200</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >-1.47
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>SK하이닉스</td>
+            <td class="change_color_prev">88,400</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+3.39
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>NAVER</td>
+            <td class="change_color_prev">198,200</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >-1.47
+            </td>
+          </tr>
+        </table>
+        <table class="sec_2_table_2">
+          <!-- (36/304)*100  = 11.842105263157894-->
+          <!-- (132/304)*100 = 43.42105263157895 -->
+          <!-- (65/304)*100 = 21.38157894736842 -->
+          <!-- (71/304)*100 = 23.355263157894736 -->
+          <colgroup>
+            <col style="width: 11.842105263157894%" />
+            <col style="width: 43.42105263157895%" />
+            <col style="width: 21.38157894736842%" />
+            <col style="width: 23.355263157894736%" />
+          </colgroup>
+          <tr>
+            <td>1</td>
+            <td>선익시스템</td>
+            <td class="change_color_prev">36,950</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+29.88
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>야스</td>
+            <td class="change_color_prev">10,140</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+21.73
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>인베니아</td>
+            <td class="change_color_prev">1,593</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+29.99
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>코스모화학</td>
+            <td class="change_color_prev">64,800</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+24.09
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>웰크론한텍</td>
+            <td class="change_color_prev">6,850</td>
+            <td class="change_color">
+              <span
+                ><img
+                  src="./images/main/changecolor1.png"
+                  alt="업올다운" /></span
+              >+6.52
+            </td>
+          </tr>
+        </table>
+        <p>더보기</p>
+      </section>
+      <!-- /Section2 -->
+
+      <!-- 구분선 -->
+      <hr />
+      <!-- /구분선 -->
+
+      <!-- Section3 -->
+      <section class="sec_3">
+        <div class="sec_3_title_cover safe_area">
+          <h2>주요뉴스</h2>
+          <a href="#">
+            더보기
+            <img src="./images/main/rightarrow.png" alt="더보기">
+          </a>
+        </div>
+        <div class="sec_3_article_cover">
+          <article class="sec_3_article_1">
+            <h2>내 종목 새로운 뉴스</h2>
+            <div class="news_1">
+              <h3>삼성전자</h3>
+              <h4>50대 기업, 1분기 영업익 전망치 3개월새 11조원 증발</h4>
+              <p>조선경제 · 1분 전</p>
+            </div>
+            <div class="news_2">
+              <h3>아시아나항공</h3>
+              <h4>원/달러환율:1,2961.1원(-5.4원)</h4>
+              <p>인포스탁 · 1시간 전</p>
+            </div>
+            <a href="#">더보기</a>
+          </article>
+          <article class="sec_3_article_2">
+            <h2>오늘 국내 증시는</h2>
+            <h3>- 코스피 시장 -</h3>
+            <p>
+              4/3 KOSPI 2,472.34(-0.18%) 원/ <br />
+              달러 환율 급등(-), 외국인/기관 순매 <br />
+              도(-), 글로벌 인플레이션 우려 완화 <br />
+              (+), 美 IRA 불확실성 해소(+)
+            </p>
+            <a href="#">증시리뷰</a>
+          </article>
+          <article class="sec_3_article_3">
+            <h2>
+              시간외 상승률이 높은 <br />
+              <span>오늘 시간외 장 마감 기준</span>
+            </h2>
+            <table>
+              <colgroup>
+                <!-- (22/328)*100 = 6.707317073170732 -->
+                <!-- (115/328)*100 = 35.0609756097561 -->
+                <!-- (62/328)*100 = 18.902439024390244 -->
+                <col style="width: 6.707317073170732%" />
+                <col style="width: 35.0609756097561%" />
+                <col style="width: 18.902439024390244%" />
+              </colgroup>
+              <tr>
+                <td>1</td>
+                <td>지엔원에너지</td>
+                <td class="change_color">+9.94</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>SOL 200TR</td>
+                <td class="change_color">+9.93</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>싸이토젠</td>
+                <td class="change_color">+9.91</td>
+              </tr>
+            </table>
+            <a href="#">더보기</a>
+          </article>
+          <article class="sec_3_article_4">
+            <h2>
+              오늘 가장 많이 올랐던 <br />
+              <span>상승률 1위</span
+              ><img src="./images/main/downarrow.png" alt="다운화살표" />
+            </h2>
+            <div class="s3_a4_div_1">
+              <h3>한국ANKOR유전</h3>
+              <p class="change_color">+30.00</p>
+            </div>
+            <div class="s3_a4_div_2">
+              <div>
+                <img src="./images/main/bag.png" alt="가방" />
+                <h5>시가총액</h5>
+                <p>2992위</p>
+              </div>
+              <div>
+                <img src="./images/main/dollar.png" alt="달러" />
+                <h5>배당수익률</h5>
+                <p>0.00</p>
+              </div>
+            </div>
+            <p>실시간 종목 순위</p>
+            <a href="#">더보기</a>
+          </article>
+        </div>
+      </section>
+      <!-- /Section3 -->
+
+      <!-- Section4 -->
+      <section class="sec_4 safe_area">
+        <h2>알아두면 편리한 기능</h2>
+        <div class="sec_4_article_cover">
+          <article>
+            <h3>시작하기</h3>
+            <p>신한투자증권에 처음 오셨나요?</p>
+            <a href="#">
+              ID등록 / 계좌개설<img src="./images/main/rightarrow.png" alt="화살표" />
+            </a>
+            <img src="./images/main/start.png" alt="시작하기" />
+          </article>
+          <article>
+            <h3>전계좌조회</h3>
+            <img src="./images/main/check.png" alt="조회" />
+          </article>
+          <article>
+            <h3>자산현황분서</h3>
+            <img src="./images/main/analysis.png" alt="분석" />
+          </article>
+          <article>
+            <h3>연금자산</h3>
+            <img src="./images/main/assets.png" alt="자산" />
+          </article>
+          <article>
+            <h3>추천펀드</h3>
+            <img src="./images/main/funds.png" alt="펀드" />
+          </article>
+        </div>
+      </section>
+      <!-- /Section4 -->
+
+      <!-- Section5 -->
+      <section class="sec_5 safe_area">
+        <h2>공지사항</h2>
+        <div class="sec_5_box">
+          <h3>외화RP 금리 변경 안내</h3>
+          <p>2023.04.01</p>
+        </div>
+        <div class="sec_5_box">
+          <h3>개인종합자산관리계좌(중개형) 약관 개정 안내</h3>
+          <p>2023.03.28</p>
+        </div>
+        <div class="sec_5_box">
+          <h3>
+            [금융감독원] 택배회사, 정부기관 등을 사칭한 보이스피싱 경보 발령
+          </h3>
+          <p>2023.01.21</p>
+        </div>
+        <p><a href="#">전체보기</a></p>
+      </section>
+      <!-- /Section5 -->
+    </div>
+
+    <!-- Aside GNB Menu Bar -->
+    <aside class="gnb_bar">
+      <ul>
+        <li class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>메뉴</p>
+        </li>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">주문</a></li>
+        <li><a href="#">잔고</a></li>
+        <li><a href="#">이체</a></li>
+        <li><a href="#">나의계좌</a></li>
+      </ul>
+    </aside>
+    <!-- /Aside GNB Menu Bar -->
+
+    <!-- GNB -->
+    <div class="gnbWrap"></div>
+
+
+  </body>
+  <!-- 미구현 기능 클릭시 안내문 -->
+  <script src="./js/alret.js"></script>
+  <!-- 페이지 JS -->
+  <script src="./js/main.js"></script>
+  <!-- Swiper JS -->
+  <script src="./js/swiperevent.js"></script>
+  <!-- gnb load -->
+  <script src="./js/load.js"></script>
+
+</html>
